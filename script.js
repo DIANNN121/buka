@@ -19,12 +19,12 @@ document.getElementById('yes-button').addEventListener('click', () => {
           alertIcon: 'Menuju whatsap',
           title: 'Makasih sayang!',
           message: 'tunggu ya menuju ke whatsapp',
-          btnTitle: 'Ok',
+          btnTitle: 'Ok sayang',
         btnColor: '#FFC0CB',
         themeColor: '#FF69B4',
           border:true
         });
-        setTimeout(openWhatsApp, 2000);
+        setTimeout(openWhatsApp, 2500);
 });
 
 
