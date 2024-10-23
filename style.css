@@ -1,11 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-}
 
-
-.container {
-    text-align: center;
+body {
     background-color: #FFC0CB;
     display: flex;
     justify-content: center;
@@ -15,9 +9,14 @@
     font-family: 'Helvetica', sans-serif;
 }
 
+.container {
+    text-align: center;
+
+}
+
 h1 {
-    font-size: 25px;
-    color: #ff69b4;
+    font-size: 24px;
+    color: #FF69B4;
 }
 
 button {
