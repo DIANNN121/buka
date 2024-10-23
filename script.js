@@ -27,6 +27,7 @@ document.getElementById('yes-button').addEventListener('click', () => {
         setTimeout(openWhatsApp, 2000);
 });
 
+
 const noButton = document.getElementById('no-button');
 
 // Pindahkan tombol saat di-click
