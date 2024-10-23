@@ -15,7 +15,7 @@ function moveButton(button) {
 }
 
 document.getElementById('yes-button').addEventListener('click', () => {
-    alert("SERIUS NIHHHHH?");
+    alert("SERIUS NIHHHH?");
     openWhatsApp();
 });
 
