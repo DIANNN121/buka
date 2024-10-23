@@ -15,8 +15,16 @@ function moveButton(button) {
 }
 
 document.getElementById('yes-button').addEventListener('click', () => {
-    alert("SERIUS NIHHHH?");
-    openWhatsApp();
+    alertbox.render({
+          alertIcon: 'Menuju whatsap',
+          title: 'Makasih sayang!',
+          message: 'tunggu ya menuju ke whatsapp',
+          btnTitle: 'Ok',
+        btnColor: '#FFC0CB',
+        themeColor: '#FF69B4',
+          border:true
+        });
+        setTimeout(openWhatsApp, 2000);
 });
 
 const noButton = document.getElementById('no-button');
