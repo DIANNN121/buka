@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    text-align: center;
+    background-color: #FFC0CB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Helvetica', sans-serif;
+}
+
+h1 {
+    font-size: 25px;
+    color: #ff69b4;
+}
+
+button {
+    background-color: #FF69B4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
